@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- NAVBAR CREATION -->
+   <header class="header">
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Help</a>
+    </nav>
+    <form action="" class="search-bar">
+       <input type="text" placeholder="Search...">
+       <button><i class='bx bx-search'></i></button>
+    </form>
+   </header>
+    <!-- LOGIN FORM CREATION -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="item">
+            <h2 class="logo" style="color: blue;">Products</h2>
+            <video src="products.mp4.mp4"muted loop autoplay></video>
+            
+            <div class="text-item">
+             
+               
+            </div>
+        </div>
+        <div class="list" >
+            <ul id="items" class="list-group">
+                    
+            </ul>
+           
+        </div>
+        <div class="login-section">
+            <div class="form-box login">
+                <form action="" id="my-form">
+                    <h2 class="logo" ><i class='bx bxl-xing'></i>Products</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxl-xing'></i></span>
+                        <input class="price" type="number" required>
+                        <label >Seliing Price</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxl-xing' ></i></span>
+                        <input class="name" type="text" required>
+                        <label>Procuct Name</label>
+                    </div>
+                    <div class="remember-password">
+                     <i class="material-icons" style="color: rgb(248, 85, 85);">favorite<span style="font-size: 18px;color: rgb(245, 221, 239);">Happy Day!</span></i>
+                       
+                       
+                    </div>
+                    <button  class="btn" id="submitbtn" type="submit" value="submit"  >Add Product</button>
+                    <div class="create-account">
+                      <h2>Total Price: <span id="totalPrice">0</span></h2>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+      <script src="advanced.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</body>
+
+</html>
